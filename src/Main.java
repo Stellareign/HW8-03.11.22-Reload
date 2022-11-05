@@ -9,7 +9,7 @@ public class Main {
         int month = 1;
         for (; saving <= 12000_000; month++) {
             saving = saving + deposit * percentMonth;
-            if (i % 6 == 0) {
+            if (month % 6 == 0) {
 
                 if (saving < 1000_000) {
                     System.out.print("Месяц " + month + " - сумма накоплений равна " + saving + " руб. ");
