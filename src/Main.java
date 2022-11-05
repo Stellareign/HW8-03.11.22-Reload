@@ -3,12 +3,10 @@ public class Main {
 
         System.out.println("Домашка 8, часть 2, задача 3, циклы, накопления, вывод каждые полгода:");
         int deposit = 15000;
-        double saving = 0;
         double percentMonth = 0.07;
-        saving = deposit;
-        int month = 0;
+        double saving = deposit;
         int periodYears = 9;
-        for (month = 1; month <= 12 * periodYears; month++) {
+        for (int month = 1; month <= 12 * periodYears; month++) {
             saving = saving + deposit * percentMonth;
             if (month % 6 == 0) {
                 if (saving < 1000_000) {
