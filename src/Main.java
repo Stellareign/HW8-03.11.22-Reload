@@ -1,7 +1,7 @@
 public class Main {
     public static void main(String[] args) {
 
-        System.out.println("Домашка 8, часть 2, задача 2, циклы, накопления, вывод каждые полгода:");
+        System.out.println("Домашка 8, часть 2, задача 3, циклы, накопления, вывод каждые полгода:");
         int deposit = 15000;
         double saving = 0;
         double percentMonth = 0.07;
