@@ -11,7 +11,7 @@ public class Main {
         }
         System.out.println("" +
                 "");
-        System.out.println("Домашка 8, часть 1, задача 2, WHILE/FOR числа от 1 до 10:"); // утеряна в гите
+        System.out.println("Домашка 8, часть 1, задача 2, WHILE/FOR числа от 1 до 10:"); // утеряна в гите повторно
         int number = 1;
         while (number <= 10) {
             System.out.print((number++) + ("; "));
